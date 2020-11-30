@@ -1,6 +1,6 @@
 # Use the redhattraining/httpd-parent image as base
 #FROM quay.io/redhattraining/httpd-parent
-FROM registry.access.redhat.com/httpd
+FROM httpd
 
 # Change the port to 8080
 EXPOSE 8080
